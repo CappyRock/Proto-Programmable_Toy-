@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="832.0" prefWidth="995.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BarrelScreenController">
+   <top>
+      <AnchorPane prefHeight="315.0" prefWidth="915.0" style="-fx-background-color: #003B00;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="L2" alignment="CENTER" layoutX="205.0" layoutY="75.0" prefHeight="166.0" prefWidth="135.0" style="-fx-background-color: #00FF41; -fx-background-radius: 50;" text="0">
+               <font>
+                  <Font name="Wide Latin" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="L1" alignment="CENTER" layoutX="57.0" layoutY="75.0" prefHeight="166.0" prefWidth="135.0" style="-fx-background-color: #00FF41; -fx-background-radius: 50;" text="0">
+               <font>
+                  <Font name="Wide Latin" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="L3" alignment="CENTER" layoutX="354.0" layoutY="75.0" prefHeight="166.0" prefWidth="135.0" style="-fx-background-color: #00FF41; -fx-background-radius: 50;" text="0">
+               <font>
+                  <Font name="Wide Latin" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="L4" alignment="CENTER" layoutX="503.0" layoutY="75.0" prefHeight="166.0" prefWidth="135.0" style="-fx-background-color: #00FF41; -fx-background-radius: 50;" text="0">
+               <font>
+                  <Font name="Wide Latin" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="L5" alignment="CENTER" layoutX="653.0" layoutY="75.0" prefHeight="166.0" prefWidth="135.0" style="-fx-background-color: #00FF41; -fx-background-radius: 50;" text="0">
+               <font>
+                  <Font name="Wide Latin" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="L6" alignment="CENTER" layoutX="803.0" layoutY="75.0" prefHeight="166.0" prefWidth="135.0" style="-fx-background-color: #00FF41; -fx-background-radius: 50;" text="0">
+               <font>
+                  <Font name="Wide Latin" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="91.0" prefWidth="995.0" style="-fx-background-color: #008F11;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="CodeButton" layoutX="835.0" layoutY="25.0" mnemonicParsing="false" onAction="#texter" prefHeight="26.0" prefWidth="135.0" style="-fx-background-color: #003B00;" text="Run" textFill="#00ff41">
+               <font>
+                  <Font name="Wide Latin" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </bottom>
+   <center>
+      <TextArea fx:id="WritingArea" prefHeight="200.0" prefWidth="200.0" promptText="Write Your Code Here!!" style="-fx-border-width: 20; -fx-border-color: green;" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </TextArea>
+   </center>
+</BorderPane>
