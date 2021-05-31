@@ -1,2 +1,7 @@
 # Proto-Programmable_Toy-
-CMP Capstone Project
+
+### OVERVIEW
+The era we are in gives people a chance to control extremely various objects in their lives. But how can it be possible? The right answer is “Languages”, the languages of those objects. By learning that, people might have this chance. If we desire to spread this ability to control devices and the ability to manage them then our target user should be people who can easily adapt and embrace this ability by a quick learning step. That’s because we have chosen kids as our users. According to appropriate tests and experiments, it has been proven that children have a greater ability to learn than adults. That's why we decided that users should be kids. Thus, we can teach them the basics of programming with a toy easily.
+
+In this project, we created a brand new programming language and a device to control. Our main goal was creating a path for users to understand how to write a code with a programming language. But on the other hand, we believe that these languages must be as simple as possible; understandable easily, and containing core features of a programming language. The Project contains two parts: A programming language and a toy to either attract the kids’ attention and show them how a language controls a physical device. To be clear, the device has barrels on it and each barrel can be controlled by appropriate blocks of codes. The programming language has a simple syntax and with this syntax basics of programming can be taught. Also, we designed and created an interface that simulates barrels and the interface has a text area to write all of the codes.
+
